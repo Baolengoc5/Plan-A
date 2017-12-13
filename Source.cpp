@@ -25,7 +25,7 @@ int main()
 
 
 	cv::Mat ihls_image;
-	cv::Mat input_image = imread("bienbao.jpg");
+	cv::Mat input_image = imread("anh7.jpg");
 	colorconversion::convert_rgb_to_ihls(input_image, ihls_image);
 
 	std::vector< cv::Mat > log_image;
@@ -65,5 +65,3 @@ int main()
 	waitKey(0);
 	return  0;
 }
-
-
